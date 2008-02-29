@@ -163,5 +163,6 @@
         </div>
       </div>
     </div><!-- 1189991641 -->
+  <?php print $closure ?>
   </body>
 </html>
