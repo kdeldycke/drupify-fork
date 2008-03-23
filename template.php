@@ -9,7 +9,6 @@ function drupify_regions() {
        'header' => t('header'),
        'bottom_left' => t('bottom left'),
        'bottom_right' => t('bottom right'),       
-       'footer' => t('footer')
   );
 }
 

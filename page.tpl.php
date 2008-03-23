@@ -28,7 +28,11 @@
                 <table class="contentpaneopen">
                   <tr>
                     <td valign="top" colspan="2">
-                      <?php if ($mission): ?><div id="mission"><?php print $mission; ?></div><?php endif; ?>
+                      <?php if ($header): ?>
+                        <div id="header_block" class="header">
+                          <?php print $header; ?>
+                        </div> <!-- /header -->
+                      <?php endif; ?>                      
                     </td>
                   </tr>
                 </table>
