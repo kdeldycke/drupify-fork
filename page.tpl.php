@@ -121,10 +121,10 @@
             <td class="right">
               <div class="padding">
                 <div class="moduletable">
-                  <?php if ($sidebar_left || $sidebar_right): ?>
+                  <?php if ($left || $right): ?>
                     <div id="sidebar-right" class="column sidebar">
-                      <?php if ($sidebar_left) {  print $sidebar_left; } ?>
-                      <?php if ($sidebar_right) { print $sidebar_right; } ?>
+                      <?php if ($left) {  print $left; } ?>
+                      <?php if ($right) { print $right; } ?>
                     </div> <!-- /sidebar-right -->
                   <?php endif; ?>
                 </div>
