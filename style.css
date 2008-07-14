@@ -522,14 +522,6 @@ table {
 tbody {
   border-top: none;
 }
-#top_left {
-  /* padding: 15px; */
-  width: 264px;
-}
-#top_right {
-  /* padding: 15px 15px 15px 0px; */
-  width: 264px;
-}
 td.right div.moduletable h2 {
 	text-transform: capitalize;
 }
