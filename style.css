@@ -565,3 +565,23 @@ tbody h2 a:link, tbody h2 a:visited {
 ul.links li {
   padding: 0 1em 0 0;
 }
+#main div.status, #main div.warning, #main div.error {
+  margin: .5em 0;
+  padding: .5em;
+  border: 1px solid;
+}
+#main div.status {
+  background-color: #C9EF50;
+  border-color: #6B8C03;
+}
+#main div.warning {
+  background-color: #F0E650;
+  border-color: #8E860C;
+}
+#main div.error {
+  background-color: #EF5551;
+  border-color: #9C120E;
+}
+#main div.messages a:link, #main div.messages a:visited {
+  color: #FFFFFF;
+}
