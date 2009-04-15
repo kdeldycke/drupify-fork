@@ -49,11 +49,6 @@
             </div>
           <?php endif; ?>
             
-          <?php if ($secondary_links): ?>
-            <div id="secondary" class="clear-block">
-              <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')) ?>
-            </div>
-          <?php endif; ?>
         </div> <!-- /navigation -->      
       </div>
       <div id="mainbody">
@@ -123,6 +118,12 @@
                 <div class="moduletable">
                   <?php if ($left || $right): ?>
                     <div id="sidebar-right" class="column sidebar">
+                      <?php if ($secondary_links): ?>
+                        <div id="secondary" class="clear-block">
+                          <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')) ?>
+                        </div>
+                      <?php endif; ?>
+                    
                       <?php if ($left) {  print $left; } ?>
                       <?php if ($right) { print $right; } ?>
                     </div> <!-- /sidebar-right -->

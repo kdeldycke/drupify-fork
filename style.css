@@ -528,17 +528,20 @@ td.right div.moduletable h2 {
 #top_left ul, #top_right ul {
   padding-left: 40px;
 }
-ul.menu li {
+.sidebar .links-menu {
+	padding-left: 0;
+}
+.sidebar ul li {
   list-style-image: none;
   list-style-type: none;
 }
-ul.menu li a {
+.sidebar ul li a {
 	display: block;
 	padding: 4px 0 2px 28px;
 	margin-bottom: 3px;
 	background: url(images/menu-bullet.png) 0 0 no-repeat;
 }
-ul.menu li ul.menu li {
+.sidebar ul li ul.menu li {
   padding-left: 25px;
 }
 .block ul {
