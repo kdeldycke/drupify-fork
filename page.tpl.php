@@ -55,30 +55,30 @@
         <table class="mainbody" cellspacing="0" cellpadding="0">
           <tr valign="top">
             <td class="mainbody">
-              <table class="usermodules" cellspacing="15">
-                <tr valign="top">
-                  <td class="usermodules">
-                    <div class="moduletable">
-                      <?php if ($top_left): ?>
-                        <div id="top_left" class="column sidebar">
-                          <?php print $top_left; ?>
-                        </div> <!-- /top_left -->
-                      <?php endif; ?>  
-
-                    </div>
-                  </td>
-                  <td class="usermodules">
-                    <div class="moduletable">
-                      <?php if ($top_right): ?>
-                        <div id="top_right" class="column sidebar">
-                          <?php print $top_right; ?>
-                        </div> <!-- /top_right -->
-                      <?php endif; ?> 
-
-                    </div>
-                  </td>
-                </tr>
-              </table>
+              <?php if ($top_left or $top_right): ?>
+                <table class="usermodules" cellspacing="15">
+                  <tr valign="top">
+                    <td class="usermodules">
+                      <div class="moduletable">
+                        <?php if ($top_left): ?>
+                          <div id="top_left" class="column sidebar">
+                            <?php print $top_left; ?>
+                          </div> <!-- /top_left -->
+                        <?php endif; ?>
+                      </div>
+                    </td>
+                    <td class="usermodules">
+                      <div class="moduletable">
+                        <?php if ($top_right): ?>
+                          <div id="top_right" class="column sidebar">
+                            <?php print $top_right; ?>
+                          </div> <!-- /top_right -->
+                        <?php endif; ?>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              <?php endif; ?>
               <div class="padding">
                 <?php if ($breadcrumb): ?>
                   <div id="header-region">
