@@ -28,9 +28,10 @@
                 <table class="contentpaneopen">
                   <tr>
                     <td valign="top" colspan="2">
-                      <?php if ($header): ?>
+                      <?php if ($header || $site_slogan): ?>
                         <div id="header_block" class="header">
                           <?php print $header; ?>
+                          <?php print $site_slogan; ?>
                         </div> <!-- /header -->
                       <?php endif; ?>                      
                     </td>
