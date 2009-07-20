@@ -113,24 +113,23 @@
                 </table>
               </div>
             </td>
-            <td class="right">
-              <div class="padding">
-                <div class="moduletable">
-                  <?php if ($left || $right): ?>
+            <?php if ($left || $right): ?>
+              <td class="right">
+                <div class="padding">
+                  <div class="moduletable">
                     <div id="sidebar-right" class="column sidebar">
                       <?php if ($secondary_links): ?>
                         <div id="secondary" class="clear-block">
                           <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')) ?>
                         </div>
                       <?php endif; ?>
-                    
                       <?php if ($left) {  print $left; } ?>
                       <?php if ($right) { print $right; } ?>
-                    </div> <!-- /sidebar-right -->
-                  <?php endif; ?>
+                    </div> <!-- /sidebar-right -->                  
+                  </div>
                 </div>
-              </div>
-            </td>
+              </td>
+            <?php endif; ?>
           </tr>
         </table>
       </div>
