@@ -159,9 +159,10 @@ div#header .rk-2 {
 
 img#logo {
 	float:  left;
-	margin-left: 38px;
-	width: 469px;
-	height: 138px;
+	margin-left: 110px;
+	margin-top: 4px;
+	width: 417px;
+	height: 134px;
 	/*background: url(images/logo.png) 0 0 no-repeat;*/
 }
 
