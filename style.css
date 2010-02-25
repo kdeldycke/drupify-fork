@@ -227,11 +227,11 @@ div#footer .rk-2 {
 }
 
 div#the-footer {
-	background: url(images/footer-rocket.png) 50% 0 no-repeat;
+	background: url(images/footer-image.png) 50% 0 no-repeat;
 	text-align: center;
 }
 
-img#rocket {
+img#footer-image {
 	width: 150px;
 	height: 50px;
 }

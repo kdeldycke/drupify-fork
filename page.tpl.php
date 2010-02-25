@@ -162,7 +162,7 @@
         <div class="rk-1">
           <div class="rk-2">
             <div id="the-footer">
-              <a href="http://www.rockettheme.com/" title="RocketTheme Joomla Template Club" class="nounder"><img src="http://demo.rockettheme.com/rokwebify/images/blank.png" border="0" alt="RocketTheme Joomla Templates" id="rocket" name="rocket" /></a>
+              <a href="http://coolcavemen.com" title="Cool Cavemen official website" class="nounder"><img src="/themes/drupify-fork/images/blank.png" border="0" id="footer-image" name="footer-image" /></a>
             </div>
           </div>
         </div>
