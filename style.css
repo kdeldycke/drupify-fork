@@ -3,7 +3,7 @@
 /* @group Main */
 
 html {
-  /* this is a hack to force scrollbars on at 
+  /* this is a hack to force scrollbars on at
      all times so that the page does not jump
      when going from short to long pages */
   height: 100%;
@@ -45,7 +45,7 @@ h2 {
 	font-size: 180%;
 }
 
-h3 { 
+h3 {
    font-size: 150%;
 }
 
@@ -159,10 +159,10 @@ div#header .rk-2 {
 
 img#logo {
 	float:  left;
-	margin-left: 110px;
-	margin-top: 4px;
-	width: 417px;
-	height: 134px;
+	margin-left: 50px;
+	margin-top: 0;
+	width: 349px;
+	height: 153px;
 	/*background: url(images/logo.png) 0 0 no-repeat;*/
 }
 
@@ -451,7 +451,7 @@ td.sectiontableentry1,
 td.sectiontableentry2 {
   padding: 5px;
   border-top: 1px #fff;
-  border-bottom: 1px solid #efefef;	
+  border-bottom: 1px solid #efefef;
 }
 
 tr.sectiontableentry2 td,
